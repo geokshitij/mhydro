@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mountain Hydrology Group">
+  <!-- back peak -->
+  <path d="M12 42 L32 12 L44 30 L50 22 L63 42 Z" fill="#7da7c4"/>
+  <!-- front peak -->
+  <path d="M1 42 L23 18 L35 42 Z" fill="#2c5f7c"/>
+  <!-- snow cap -->
+  <path d="M32 12 L37.5 20.5 L34 19 L31 22 L27.8 18.5 Z" fill="#ffffff"/>
+  <!-- water lines -->
+  <path d="M8 50 q7 -5 14 0 t14 0 t14 0" stroke="#3d8bb5" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+  <path d="M16 58 q7 -5 14 0 t14 0" stroke="#7da7c4" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
