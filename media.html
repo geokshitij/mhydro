@@ -1,0 +1,38 @@
+---
+layout: default
+title: Media
+---
+
+<p>
+    Coverage of our research in the press, and articles written by group
+    members.
+</p>
+
+<h3>In the News</h3>
+{% assign coverage = site.data.media | where: "type", "coverage" | sort: 'year' | reverse %}
+<ul class="pub-list">
+    {% for item in coverage %}
+        <li>
+            <span class="pub-title">
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </span><br>
+            <span class="pub-venue">{{ item.outlet }}</span>,
+            <span class="pub-note">{{ item.year }}</span>
+        </li>
+    {% endfor %}
+</ul>
+
+<h3>Op-Eds &amp; Columns</h3>
+{% assign opeds = site.data.media | where: "type", "oped" | sort: 'year' | reverse %}
+<ul class="pub-list">
+    {% for item in opeds %}
+        <li>
+            <span class="pub-title">
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </span><br>
+            {% if item.authors %}{{ item.authors }}<br>{% endif %}
+            <span class="pub-venue">{{ item.outlet }}</span>,
+            <span class="pub-note">{{ item.year }}</span>
+        </li>
+    {% endfor %}
+</ul>

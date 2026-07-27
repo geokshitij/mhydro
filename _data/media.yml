@@ -1,0 +1,58 @@
+# Media coverage and op-eds by group members.
+# type: coverage | oped
+
+- title: "GeoAI-based study charts flood exposure of schools in state"
+  outlet: "The Times of India"
+  year: 2026
+  url: "https://timesofindia.indiatimes.com/city/patna/geoai-based-study-charts-flood-exposure-of-schools-in-state/amp_articleshow/128004523.cms"
+  type: coverage
+
+- title: "Tourism and biodiversity at risk as raging wildfires devastate forests in Nepal"
+  outlet: "China Daily"
+  year: 2025
+  url: "https://www.chinadaily.com.cn/a/202503/27/WS67e4bd4da3101d4e4dc2b29b.html"
+  type: coverage
+
+- title: "Open burning main cause of air pollution"
+  outlet: "The Rising Nepal"
+  year: 2025
+  url: "https://risingnepaldaily.com/news/58977"
+  type: coverage
+
+- title: "Wildfire Ravage Hundreds Of Acres Of Forest Land In Nepal"
+  outlet: "WION TV"
+  year: 2025
+  url: "https://youtu.be/UFb_3MyJpew?si=4wbBrZYWRb3tuQkm"
+  type: coverage
+
+- title: "Ignored infernos (Editorial)"
+  outlet: "The Kathmandu Post"
+  year: 2025
+  url: "https://kathmandupost.com/editorial/2025/03/18/ignored-infernos"
+  type: coverage
+
+- title: "Back to the land in the cities"
+  outlet: "Nepali Times"
+  year: 2024
+  url: "https://nepalitimes.com/here-now/back-to-the-land-in-the-cities"
+  type: coverage
+
+- title: "ICON Principles Underused as a Natural Hazards Research Tool"
+  outlet: "Eos"
+  year: 2022
+  url: "https://doi.org/10.1029/2022EO220113"
+  type: coverage
+
+- title: "World Water Day 2025 on Glacier Preservation: What It Means for Nepal?"
+  outlet: "Republica"
+  authors: "Dahal, K. & Thapa, B. R."
+  year: 2025
+  url: "https://myrepublica.nagariknetwork.com/index.php/news/world-water-day-2025-on-glacier-preservation-what-it-means-for-nepal-87-57.html"
+  type: oped
+
+- title: "Landslide susceptibility and monsoon preparedness in Nepal: An engineering perspective"
+  outlet: "Onlinekhabar"
+  authors: "Dahal, K., Talchabhadel, R., & Thapa, B. R."
+  year: 2021
+  url: "https://english.onlinekhabar.com/landslide-susceptibility-and-monsoon-preparedness-in-nepal-an-engineering-perspective.html"
+  type: oped

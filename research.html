@@ -1,0 +1,17 @@
+---
+layout: default
+title: Research Projects
+---
+
+<div class="row">
+    {% comment %}
+    Sort the projects by date, putting those without dates last
+    {% endcomment %}
+    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+    {% assign projects_by_date = projects_by_date | reverse %}
+    {% for p in projects_by_date %}
+        <div class="col-md-6 col-lg-4 mb-4 d-flex">
+            {% include project-card.html project=p %}
+        </div>
+    {% endfor %}
+</div>

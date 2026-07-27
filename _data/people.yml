@@ -1,0 +1,137 @@
+# Mountain Hydrology Group members.
+# Fields: display_name, role (member), bio (affiliation), image, webpage,
+#         linkedin, scholar, github.
+# Keys are referenced from _projects/*.md people lists.
+
+kshitij-dahal:
+    display_name: "Kshitij Dahal"
+    role: member
+    bio: "University of Kansas, USA"
+    image: /img/people/kshitij-dahal.jpg
+    webpage: "https://geokshitij.github.io/"
+    linkedin: "https://www.linkedin.com/in/geokshitij"
+    scholar: "https://scholar.google.com/citations?user=jOtnPBIAAAAJ"
+    github: geokshitij
+
+yogesh-bhattarai:
+    display_name: "Yogesh Bhattarai"
+    role: member
+    bio: "Howard University, USA"
+    image: /img/people/yogesh-bhattarai.jpg
+    webpage: "http://yogeshbhattarai7.com.np/"
+    linkedin: "https://www.linkedin.com/in/yogesh-sb/"
+    scholar: "https://scholar.google.com/citations?user=-OsVBMgAAAAJ"
+
+nitesh-khadka:
+    display_name: "Nitesh Khadka"
+    role: member
+    bio: "Chinese Academy of Sciences, China"
+    image: /img/people/nitesh-khadka.jpg
+    linkedin: "https://www.linkedin.com/in/nitesh-khadka-a1155b168/"
+    scholar: "https://scholar.google.com/citations?user=-GIWPgkAAAAJ"
+
+prajal-pradhan:
+    display_name: "Prajal Pradhan"
+    role: member
+    bio: "University of Groningen, Netherlands"
+    image: /img/people/prajal-pradhan.jpg
+    webpage: "https://www.rug.nl/staff/p.pradhan/"
+    linkedin: "https://www.linkedin.com/in/prajal-pradhan-7a51b26/"
+    scholar: "https://scholar.google.com/citations?user=5I-cQSUAAAAJ"
+
+somnath-bera:
+    display_name: "Somnath Bera"
+    role: member
+    bio: "Central University of South Bihar, India"
+    image: /img/people/somnath-bera.jpg
+    linkedin: "https://www.linkedin.com/in/somnath-bera-a9149b166/"
+    scholar: "https://scholar.google.com/citations?user=g0fSpo0AAAAJ"
+
+atharva-gupta:
+    display_name: "Atharva Gupta"
+    role: member
+    bio: "Meta Inc, USA"
+    image: /img/people/atharva-gupta.jpg
+    linkedin: "https://www.linkedin.com/in/atharva-gupta-a213311b4/"
+
+unisha-ghimire:
+    display_name: "Unisha Ghimire"
+    role: member
+    bio: "University of Denver, USA"
+    image: /img/people/unisha-ghimire.jpg
+    linkedin: "https://www.linkedin.com/in/unisha-ghimire-96b97b1ab"
+
+aakash-basu:
+    display_name: "Aakash Basu"
+    role: member
+    bio: "Clemson University, USA"
+    image: /img/people/aakash-basu.jpg
+    webpage: "https://cecas.clemson.edu/casl/our-team/"
+    linkedin: "https://www.linkedin.com/in/aakash-basu-757514176"
+
+rocky-talchabhadel:
+    display_name: "Rocky Talchabhadel"
+    role: member
+    bio: "Jackson State University, USA"
+    image: /img/people/rocky-talchabhadel.jpg
+    webpage: "https://sites.google.com/view/rockytalchabhadel"
+    linkedin: "https://www.linkedin.com/in/rocky-talchabhadel-58636856/"
+    scholar: "https://scholar.google.com/citations?user=UnHGPMQAAAAJ"
+
+abinash-silwal:
+    display_name: "Abinash Silwal"
+    role: member
+    bio: "University of Kansas, USA"
+    image: /img/people/abinash-silwal.png
+    webpage: "https://abinashsilwal.com.np/"
+    linkedin: "https://www.linkedin.com/in/abinashsilwal/"
+    scholar: "https://scholar.google.com/citations?user=TqOcMXsAAAAJ"
+
+shikshita-bhandari:
+    display_name: "Shikshita Bhandari"
+    role: member
+    bio: "Stanford University, USA"
+    image: /img/people/shikshita-bhandari.jpg
+    webpage: "https://hydro.stanford.edu/people/shikshita-bhandari"
+    linkedin: "https://www.linkedin.com/in/shikshitab/"
+    scholar: "https://scholar.google.com/citations?user=TN4FPIoAAAAJ"
+
+mamata-pandey:
+    display_name: "Mamata Pandey"
+    role: member
+    bio: "Oklahoma State University, USA"
+    image: /img/people/mamata-pandey.jpg
+    linkedin: "https://www.linkedin.com/in/mamata-pandey/"
+    scholar: "https://scholar.google.com/citations?user=zpgiHioAAAAJ"
+
+biplav-khatri:
+    display_name: "Biplav Khatri"
+    role: member
+    bio: "Government of Nepal"
+    image: /img/people/biplav-khatri.jpg
+
+jeeban-panthi:
+    display_name: "Jeeban Panthi"
+    role: member
+    bio: "Kansas State University, USA"
+    image: /img/people/jeeban-panthi.jpg
+    webpage: "https://jeeban.com.np/"
+    linkedin: "https://www.linkedin.com/in/jeeban-panthi-1a364126"
+    scholar: "https://scholar.google.com/citations?user=N0VhxnWMlf0C"
+
+amin-shakya:
+    display_name: "Amin Shakya"
+    role: member
+    bio: "University of Twente, Netherlands"
+    image: /img/people/amin-shakya.jpg
+    webpage: "https://people.utwente.nl/a.shakya"
+    linkedin: "https://www.linkedin.com/in/aminshakya"
+    scholar: "https://scholar.google.com/citations?user=POCRJ_AAAAAJ"
+
+manish-gouli:
+    display_name: "Manish Raj Gouli"
+    role: member
+    bio: "The Stimson Center, USA"
+    image: /img/people/manish-gouli.jpg
+    linkedin: "https://www.linkedin.com/in/manish-raj-gouli-219a45148"
+    scholar: "https://scholar.google.com/citations?user=nx1_IpIAAAAJ"

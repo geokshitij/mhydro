@@ -1,0 +1,63 @@
+
+{% assign person = include.person %}
+
+{% comment %}
+
+Usage:
+
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == role.key %}
+        {% include person.html person=person image=true %}
+    {% endif %}
+{% endfor %}
+
+Use the image parameter to include or not include an image.
+
+Supported person fields: display_name, webpage, linkedin, scholar,
+github, role, image, bio.
+
+{% endcomment %}
+
+{% if person.webpage %}
+    {% capture name %}
+        <a href="{{ person.webpage | escape }}"> {{ person.display_name }} </a>
+    {% endcapture %}
+{% else %}
+    {% assign name = person.display_name %}
+{% endif %}
+
+{% capture links %}
+    {% if person.linkedin %}
+        <a href="{{ person.linkedin | escape }}" title="LinkedIn"><span class="fa fa-linkedin-square"></span></a>
+    {% endif %}
+    {% if person.scholar %}
+        <a href="{{ person.scholar | escape }}" title="Google Scholar"><span class="fa fa-graduation-cap"></span></a>
+    {% endif %}
+    {% if person.github %}
+        <a href="https://github.com/{{ person.github }}" title="GitHub"><span class="fa fa-github"></span></a>
+    {% endif %}
+{% endcapture %}
+
+{% if include.image %}
+    <div class="person person-with-image row align-items-center">
+        <div class="col-auto">
+            {% include person-image.html person=person %}
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> {{ name }} </h6>
+            {% if person.bio %}
+                <div class="bio">{{person.bio}}</div>
+            {% endif %}
+            <span class="person-links">{{ links }}</span>
+        </div>
+    </div>
+{% else %}
+    <div class="person person-without-image">
+        {{ name }}
+        {% if person.bio %}
+            <span class="bio">{{person.bio}}</span>
+        {% endif %}
+        <span class="person-links">{{ links }}</span>
+    </div>
+{% endif %}

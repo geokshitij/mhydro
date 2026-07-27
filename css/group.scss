@@ -1,0 +1,196 @@
+---
+---
+
+$gray: #8a94a0;
+$light-gray: #e6ebef;
+$mountain-dark: #2c5f7c;
+$mountain-mid: #3d8bb5;
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    color: #2b3440;
+}
+
+a:link, a:visited {
+    color: $mountain-mid;
+}
+a:hover {
+    color: $mountain-dark;
+}
+
+.header {
+    border-bottom: 1px solid $light-gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    .nav-pills .nav-link.active {
+        background-color: $mountain-dark;
+    }
+}
+
+.footer {
+    color: $gray;
+    border-top: 1px solid $light-gray;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 2em;
+    padding-top: 1em;
+
+    a:link, a:visited {
+        color: $gray;
+    }
+}
+
+.fa {
+    color: $gray;
+}
+a > .fa {
+    // make sure that font-awesome icons are underlined in links
+    display: inline;
+}
+
+/* Jumbotron */
+.jumbotron {
+    text-align: justify;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-size: 115%;
+    background: linear-gradient(180deg, #f2f7fa 0%, #ffffff 100%);
+    border-left: 4px solid $mountain-mid;
+}
+
+/* Group logo */
+#logo {
+    height: 56px;
+    width: auto;
+    margin: 2px 0 8px 0;
+}
+
+/* Front page news. */
+ul.news {
+
+    .date {
+        color: $gray;
+        font-weight: bold;
+    }
+
+    > li {
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 576px) {
+    .project-people { column-count: 2 }
+    .role.member    { column-count: 2 }
+}
+
+@media (min-width: 768px) {
+    .role.member    { column-count: 3 }
+    .project-people { column-count: 3 }
+}
+
+.title img {
+    max-width: 50%;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2, h3 {
+    color: $mountain-dark;
+}
+
+.profile {
+    object-fit: cover; // makes sure it's cropped
+}
+
+.noprofile {
+    circle {
+        fill: $mountain-mid;
+        fill-opacity: 0.35;
+    }
+    text {
+        font-weight: 700;
+        fill: white;
+    }
+}
+
+.card {
+
+    .profile {
+        height: 40px;
+        width: 40px;
+        margin: 3px;
+    }
+
+    .card-footer { padding: 0.5em }
+}
+
+.person {
+
+    margin-bottom: 10px;
+    break-inside: avoid;
+
+    .profile {
+        height: 70px;
+        width: 70px;
+    }
+
+    .bio {
+        color: $gray;
+        font-size: 0.85em;
+        line-height: 1.25;
+    }
+
+    .person-name {
+        margin: 0;
+    }
+
+    .person-links {
+        font-size: 0.85em;
+
+        a { margin-right: 0.4em; }
+    }
+}
+
+.person-without-image {
+    margin: 0 0 0.5em 0;
+
+    .bio {
+        margin-left: 1em;
+    }
+}
+
+/* Publications */
+ul.pub-list {
+    list-style: none;
+    padding-left: 0;
+
+    > li {
+        margin-bottom: 1em;
+        padding-left: 1em;
+        border-left: 3px solid $light-gray;
+    }
+
+    .pub-title {
+        font-weight: 600;
+    }
+
+    .pub-venue {
+        font-style: italic;
+        color: $mountain-dark;
+    }
+
+    .pub-note {
+        color: $gray;
+        font-size: 0.9em;
+    }
+}
+
+svg {
+    // make the alignment just like img from bootstrap's reboot.scss
+    vertical-align: middle;
+}

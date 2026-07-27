@@ -1,0 +1,78 @@
+---
+layout: default
+title: Home
+notitle: true
+
+# groups of columns of {roles: list, width: num, image: bool}
+role-tables:
+- - roles: [member]
+    width: 12
+    image: true
+
+---
+
+<div class="jumbotron">
+    <p>
+        The <b>Mountain Hydrology Group</b> is an independent research
+        collective of scientists and engineers working across universities,
+        research institutes, industry, and government on four continents. We
+        study how water shapes, and threatens, life in mountain
+        regions: floods and flash floods, landslides and debris flows, glacial
+        lakes and their outburst floods, groundwater, wildfire&ndash;hydrology
+        interactions, and the resilience of communities and infrastructure.
+    </p>
+    <p>
+        We combine process-based understanding with artificial intelligence
+        and remote sensing to advance hazard and water science in data-scarce
+        mountain environments.
+    </p>
+</div>
+
+<section>
+    <h2>News</h2>
+    <ul class="news list-unstyled">
+        {% for post in site.posts limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </ul>
+    {% assign numposts = site.posts | size %}
+    {% if numposts >= 1 %}
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+        </p>
+    {% endif %}
+</section>
+
+<section>
+    <h2>Research</h2>
+    <div class="row">
+        {% comment %}
+        Sort the projects by date, putting those without dates last
+        {% endcomment %}
+        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+        {% assign projects_by_date = projects_by_date | reverse %}
+        {% for p in projects_by_date %}
+            {% if p.status != "inactive" %}
+                <div class="col-md-6 col-lg-4 mb-4 d-flex">
+                    {% include project-card.html project=p %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+<div id="people">
+    <h2>People</h2>
+    {% for role-table in page.role-tables %}
+        <section class="people row justify-content-between">
+            {% for role-column in role-table %}
+                <div class="col-md-{{ role-column.width }}">
+                    {% for role in role-column.roles %}
+                        {% include role-people.html role=role image=role-column.image %}
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </section>
+    {% endfor %}
+</div>

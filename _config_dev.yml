@@ -1,0 +1,4 @@
+# Local-preview override: serve from site root instead of the
+# /mountain-hydrology-group project path used on GitHub Pages.
+# Usage: jekyll serve --config _config.yml,_config_dev.yml
+base: ''

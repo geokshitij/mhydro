@@ -1,0 +1,125 @@
+# Publications of Mountain Hydrology Group members.
+# Bold (<b>) marks group members. Sorted newest-first on the page by `year`.
+# type: journal | inreview | report
+
+- title: "Extreme event-induced landslides and flooding in Darjeeling, 4–5 October 2025"
+  authors: "Ghosh, P., <b>Bera, S.</b>, <b>Dahal, K.</b>, Melo, R., Tamang, S., Priyadarshi, S., & Talukdar, S."
+  venue: "Landslides"
+  year: 2026
+  url: "https://doi.org/10.1007/s10346-026-02743-8"
+  type: journal
+
+- title: "Developing a framework for assessment of the school's exposure to flood-depth scenarios"
+  authors: "Bishui, C., <b>Bera, S.</b>, Priyadarshi, S., Ghosh, P. & <b>Dahal, K.</b>"
+  venue: "Natural Hazards"
+  year: 2026
+  url: "https://link.springer.com/article/10.1007/s11069-025-07852-6"
+  note: "Covered by The Times of India"
+  type: journal
+
+- title: "A Comprehensive Review of Machine Learning and Deep Learning Methods for Flood Inundation Mapping"
+  authors: "<b>Silwal, A.</b>, Subedi, A., Tamrakar, R., <b>Dahal, K.</b>, Dahal, D., Ekpetere, K. O., & Zhran, M."
+  venue: "Earth, 7(2), 44"
+  year: 2026
+  url: "https://doi.org/10.3390/earth7020044"
+  type: journal
+
+- title: "Data-driven machine learning method for assessing glacial lake outburst flood (GLOF) susceptibility and controlling factors in China–Nepal transportation corridors"
+  authors: "<b>Khadka, N.</b>, Liu, W., <b>Dahal, K.</b>, Yang, Z., Huang, Y., & <b>Gouli, M. R.</b>"
+  venue: "Journal of Geographical Sciences"
+  year: 2026
+  note: "Revision submitted"
+  type: inreview
+
+- title: "Nepal's carbon stock and biodiversity are under threat from climate exacerbated forest fires"
+  authors: "<b>Dahal, K.</b>, <b>Talchabhadel, R.</b>, <b>Pradhan, P.</b>, Parajuli, P., Shrestha, D., Chhetri, R., Gautam, A. P., Tamrakar, R., Gurung, S., & Kumar, S."
+  venue: "Information Geography"
+  year: 2025
+  url: "https://doi.org/10.1016/j.infgeo.2025.100003"
+  note: "Covered by China Daily, WION TV, The Kathmandu Post"
+  type: journal
+
+- title: "Policy Relevance of IPCC Reports for the SDGs and Beyond"
+  authors: "<b>Pradhan, P.</b>, Joshi, S., <b>Dahal, K.</b>, Hu, Y., Subedi, D. R., Putra, M. P. I. F., Vaidya, S., Pant, L. P., Dhakal, S., Hubacek, K., Rupakheti, M., Roberts, D., & van den Hurk, B."
+  venue: "Resources, Environment and Sustainability"
+  year: 2025
+  url: "https://doi.org/10.1016/j.resenv.2025.100192"
+  type: journal
+
+- title: "Urban agriculture matters for sustainable development"
+  authors: "<b>Pradhan, P.</b>, Subedi, D. R., <b>Dahal, K.</b>, Hu, Y., Gurung, P., Pokharel, S., Kafle, S., <b>Khatri, B.</b>, Basyal, S., Gurung, M., & Joshi, A."
+  venue: "Cell Reports Sustainability"
+  year: 2024
+  url: "https://doi.org/10.1016/j.crsus.2024.100217"
+  type: journal
+
+- title: "Identification of groundwater potential zones in data-scarce mountainous region using explainable machine learning"
+  authors: "<b>Dahal, K.</b>, Sharma, S., <b>Shakya, A.</b>, <b>Talchabhadel, R.</b>, Adhikari, S., Pokharel, A., Sheng, Z., Pradhan, A. M. S., & Kumar, S."
+  venue: "Journal of Hydrology"
+  year: 2023
+  url: "https://doi.org/10.1016/j.jhydrol.2023.130417"
+  type: journal
+
+- title: "Multimodal multiscale characterization of cascading hazard on mountain terrain"
+  authors: "<b>Talchabhadel, R.</b>, Maskey, S., <b>Gouli, M. R.</b>, <b>Dahal, K.</b>, Thapa, A., Sharma, S., Dixit, A. M., & Kumar, S."
+  venue: "Geomatics, Natural Hazards and Risk, 14(1), 2162443"
+  year: 2023
+  url: "https://doi.org/10.1080/19475705.2022.2162443"
+  type: journal
+
+- title: "Framework for rainfall-triggered landslide-prone critical infrastructure zonation"
+  authors: "Gnyawali, K., <b>Dahal, K.</b>, <b>Talchabhadel, R.</b>, & Nirandjan, S."
+  venue: "Science of the Total Environment, 872, 162242"
+  year: 2023
+  url: "https://doi.org/10.1016/j.scitotenv.2023.162242"
+  type: journal
+
+- title: "Land use and land cover change implications on agriculture and natural resource management of Koah Nheaek, Mondulkiri province, Cambodia"
+  authors: "Teck, V., Poortinga, A., Riano, C., <b>Dahal, K.</b>, Legaspi, R. M. B., Ann, V., & Chea, R."
+  venue: "Remote Sensing Applications: Society and Environment, 29, 100895"
+  year: 2023
+  url: "https://doi.org/10.1016/j.rsase.2022.100895"
+  type: journal
+
+- title: "Assessment of shelter location-allocation for multi-hazard emergency evacuation"
+  authors: "<b>Bera, S.</b>, Gnyawali, K., <b>Dahal, K.</b>, Melo, R., Li-Juan, M., Guru, B., & Ramana, G. V."
+  venue: "International Journal of Disaster Risk Reduction, 84, 103435"
+  year: 2023
+  url: "https://doi.org/10.1016/j.ijdrr.2022.103435"
+  type: journal
+
+- title: "A systematic review highlights that there are multiple benefits of urban agriculture besides food"
+  authors: "<b>Pradhan, P.</b>, Callaghan, M., Hu, Y., <b>Dahal, K.</b>, Hunecke, C., Reusswig, F., Lotze-Campen, H., & Kropp, J. P."
+  venue: "Global Food Security, 38, 100700"
+  year: 2023
+  url: "https://doi.org/10.1016/j.gfs.2023.100700"
+  type: journal
+
+- title: "Vegetation loss and recovery analysis from the 2015 Gorkha earthquake (7.8 Mw) triggered landslides"
+  authors: "Pandey, H. P., Gnyawali, K., <b>Dahal, K.</b>, & Pokhrel, N. P."
+  venue: "Land Use Policy"
+  year: 2022
+  url: "https://www.sciencedirect.com/science/article/pii/S0264837722002125"
+  type: journal
+
+- title: "Natural Hazards Perspectives on Integrated, Coordinated, Open, Networked (ICON) Science"
+  authors: "Sharma, S., <b>Dahal, K.</b>, Nava, L., <b>Gouli, M. R.</b>, <b>Talchabhadel, R.</b>, <b>Panthi, J.</b>, Roy, T., & Ghimire, G. R."
+  venue: "Earth and Space Science, 9(1), e2021EA002114"
+  year: 2022
+  url: "https://doi.org/10.1029/2021EA002114"
+  note: "Spotlight: ICON Principles Underused as a Natural Hazards Research Tool (Eos)"
+  type: journal
+
+- title: "Scoping Study on Compound, Cascading and Systemic Risks in the Asia Pacific"
+  authors: "United Nations Office for Disaster Risk Reduction (UNDRR)"
+  venue: "UNDRR Technical Report"
+  year: 2022
+  url: "https://www.undrr.org/quick/71248"
+  type: report
+
+- title: "Insights on the Impacts of Hydroclimatic Extremes and Anthropogenic Activities on Sediment Yield of a River Basin"
+  authors: "<b>Talchabhadel, R.</b>, <b>Panthi, J.</b>, Sharma, S., Ghimire, G. R., Baniya, R., Dahal, P., Baniya, M. B., K. C., S., Jha, B., Kaini, S., <b>Dahal, K.</b>, Gnyawali, K. R., Parajuli, B., & Kumar, S."
+  venue: "Earth, 2(1), 32–50"
+  year: 2021
+  url: "https://doi.org/10.3390/earth2010003"
+  type: journal

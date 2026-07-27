@@ -1,0 +1,75 @@
+---
+layout: default
+title: Publications
+---
+
+<p>
+    Peer-reviewed publications by Mountain Hydrology Group members
+    (group members in <b>bold</b>).
+    <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
+</p>
+
+{% assign pubs = site.data.publications | where: "type", "journal" %}
+{% assign pubs_by_year = pubs | group_by: 'year' | sort: 'name' | reverse %}
+
+{% for year in pubs_by_year %}
+    <h3>{{ year.name }}</h3>
+    <ul class="pub-list">
+        {% for pub in year.items %}
+            <li>
+                <span class="pub-title">
+                    {% if pub.url %}
+                        <a href="{{ pub.url }}">{{ pub.title }}</a>
+                    {% else %}
+                        {{ pub.title }}
+                    {% endif %}
+                </span><br>
+                {{ pub.authors }}<br>
+                <span class="pub-venue">{{ pub.venue }}</span>
+                {% if pub.note %}
+                    <br><span class="pub-note">{{ pub.note }}</span>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+
+{% assign inreview = site.data.publications | where: "type", "inreview" %}
+{% assign numinreview = inreview | size %}
+{% if numinreview >= 1 %}
+    <h3>In Review</h3>
+    <ul class="pub-list">
+        {% for pub in inreview %}
+            <li>
+                <span class="pub-title">{{ pub.title }}</span><br>
+                {{ pub.authors }}<br>
+                <span class="pub-venue">{{ pub.venue }}</span>
+                {% if pub.note %}
+                    <br><span class="pub-note">{{ pub.note }}</span>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+{% assign reports = site.data.publications | where: "type", "report" | sort: 'year' | reverse %}
+{% assign numreports = reports | size %}
+{% if numreports >= 1 %}
+    <h3>Technical Reports</h3>
+    <ul class="pub-list">
+        {% for pub in reports %}
+            <li>
+                <span class="pub-title">
+                    {% if pub.url %}
+                        <a href="{{ pub.url }}">{{ pub.title }}</a>
+                    {% else %}
+                        {{ pub.title }}
+                    {% endif %}
+                </span><br>
+                {{ pub.authors }}<br>
+                <span class="pub-venue">{{ pub.venue }}</span>,
+                <span class="pub-note">{{ pub.year }}</span>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
