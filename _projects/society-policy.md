@@ -8,6 +8,7 @@ description: |
     - Urban development and urban agriculture
     - Transboundary risk governance
 people:
+  - kshitij-dahal
   - prajal-pradhan
   - biplav-khatri
   - manish-gouli

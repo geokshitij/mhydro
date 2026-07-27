@@ -36,10 +36,40 @@ a:hover {
     text-align: center;
     font-size: 0.8em;
     margin-top: 2em;
-    padding-top: 1em;
+    padding-top: 1.2em;
 
     a:link, a:visited {
         color: $gray;
+    }
+
+    .footer-text p {
+        margin-bottom: 0.3em;
+    }
+
+    .disclaimer-label {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+        margin-bottom: 0.15em;
+    }
+
+    .disclaimer-body {
+        line-height: 1.5;
+        text-wrap: balance;
+    }
+
+    .copyright {
+        margin-top: 0.6em;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer .footer-brand {
+        text-align: left;
+    }
+    .footer .footer-text {
+        text-align: right;
+        max-width: 54%;
     }
 }
 
@@ -69,9 +99,9 @@ a > .fa {
 }
 
 #footer-logo {
-    height: 44px;
+    height: 64px;
     width: auto;
-    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 /* Front page news. */

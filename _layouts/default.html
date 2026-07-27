@@ -63,21 +63,34 @@
             {{ content }}
 
             <div class="footer">
-                <p>
-                    <a href="{{ site.base }}/">
-                        <img src="{{ site.base }}/img/logo.svg"
-                             alt="Mountain Hydrology Group" id="footer-logo">
-                    </a>
-                </p>
-                <p>
-                    The Mountain Hydrology Group is an independent research
-                    collective. Members contribute in their personal capacity,
-                    and nothing on this site represents their employers.
-                </p>
-                <p>
-                    Contact
-                    <a href="mailto:geokshitij@gmail.com">geokshitij@gmail.com</a>
-                </p>
+                <div class="d-flex flex-column flex-md-row
+                            justify-content-md-between align-items-center">
+                    <div class="footer-brand">
+                        <a href="{{ site.base }}/">
+                            <img src="{{ site.base }}/img/logo.svg"
+                                 alt="Mountain Hydrology Group" id="footer-logo">
+                        </a>
+                        <p>
+                            Contact
+                            <a href="mailto:geokshitij@gmail.com">geokshitij@gmail.com</a>
+                            &middot;
+                            <a href="tel:+14809196738">+1 (480) 919-6738</a>
+                        </p>
+                    </div>
+                    <div class="footer-text">
+                        <p class="disclaimer-label">Disclaimer</p>
+                        <p class="disclaimer-body">
+                            The Mountain Hydrology Group is an independent
+                            research collective. Members contribute in their
+                            personal capacity, and nothing on this site
+                            represents their employers.
+                        </p>
+                        <p class="copyright">
+                            &copy; 2026 Mountain Hydrology Group &middot;
+                            Last updated July 24, 2026
+                        </p>
+                    </div>
+                </div>
             </div>
 
         </div> <!-- /container -->

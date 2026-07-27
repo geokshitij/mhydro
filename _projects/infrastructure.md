@@ -8,6 +8,7 @@ description: |
     - Exposure assessment for schools and settlements
     - Evacuation and shelter planning
 people:
+  - kshitij-dahal
   - aakash-basu
   - unisha-ghimire
   - somnath-bera

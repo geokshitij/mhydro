@@ -8,6 +8,7 @@ description: |
     - Glacial lakes and outburst floods (GLOFs)
     - Wildfire-hydrology interactions
 people:
+  - kshitij-dahal
   - somnath-bera
   - nitesh-khadka
   - manish-gouli
