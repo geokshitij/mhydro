@@ -16,10 +16,17 @@
   <path d="M240 28 q4 -4 8 0 M248 28 q4 -4 8 0" stroke="#b58a9e" stroke-width="1.6" fill="none" stroke-linecap="round"/>
   <!-- farthest faint peak -->
   <path d="M300 92 L358 54 L400 84 L400 92 Z" fill="#c9a3b5" opacity="0.5"/>
+  <!-- clouds -->
+  <g fill="#ffffff">
+    <ellipse cx="140" cy="24" rx="30" ry="8" opacity="0.55"/>
+    <ellipse cx="286" cy="20" rx="22" ry="6" opacity="0.45"/>
+  </g>
   <!-- mountain backdrop -->
   <path d="M0 92 L90 30 L200 92 Z" fill="#b58a9e" opacity="0.65"/>
+  <path d="M90 30 L200 92 L90 92 Z" fill="#9e7186" opacity="0.6"/>
   <path d="M90 30 L101 42 L94 38 L90 46 L84 39 L79 42 Z" fill="#ffffff"/>
   <path d="M150 92 L250 40 L360 92 Z" fill="#8f6c85" opacity="0.6"/>
+  <path d="M250 40 L360 92 L250 92 Z" fill="#7b5a71" opacity="0.55"/>
   <path d="M250 40 L259 50 L253 47 L250 54 L245 48 L240 50 Z" fill="#ffffff"/>
   <!-- haze at mountain base -->
   <rect x="0" y="82" width="400" height="14" fill="#fdf2df" opacity="0.5"/>

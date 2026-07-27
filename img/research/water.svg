@@ -28,8 +28,20 @@
   <path d="M0 100 L40 78 L85 98 L130 62 L180 96 L250 66 L305 96 L370 64 L400 84 L400 120 L0 120 Z" fill="#bcd4e4" opacity="0.55"/>
   <!-- far ridge -->
   <path d="M0 96 L60 52 L110 88 L170 44 L230 92 L300 50 L360 90 L400 66 L400 120 L0 120 Z" fill="#a8c6da" opacity="0.6"/>
+  <!-- clouds -->
+  <g fill="#ffffff">
+    <ellipse cx="150" cy="30" rx="34" ry="9" opacity="0.65"/>
+    <ellipse cx="124" cy="36" rx="20" ry="7" opacity="0.5"/>
+    <ellipse cx="296" cy="52" rx="24" ry="7" opacity="0.45"/>
+  </g>
   <!-- mid ridge -->
   <path d="M0 122 L80 62 L140 108 L205 58 L275 118 L340 70 L400 116 L400 140 L0 140 Z" fill="#7da7c4"/>
+  <!-- mid ridge shadow faces -->
+  <g fill="#6b95b2">
+    <path d="M80 62 L140 108 L140 140 L80 140 Z"/>
+    <path d="M205 58 L275 118 L275 140 L205 140 Z"/>
+    <path d="M340 70 L400 116 L400 140 L340 140 Z"/>
+  </g>
   <path d="M205 58 L216 70 L209 66 L205 73 L199 67 L193 70 Z" fill="#ffffff"/>
   <path d="M80 62 L89 72 L83 69 L80 75 L75 70 L70 72 Z" fill="#ffffff"/>
   <path d="M340 70 L348 79 L343 76 L340 82 L335 77 L331 79 Z" fill="#ffffff"/>
@@ -37,6 +49,11 @@
   <rect x="0" y="98" width="400" height="26" fill="url(#wmist)"/>
   <!-- front ridge -->
   <path d="M0 175 L0 128 L70 96 L150 132 L235 100 L320 138 L400 112 L400 175 Z" fill="url(#wfront)"/>
+  <!-- front ridge shadow faces -->
+  <g fill="#1f4459" opacity="0.55">
+    <path d="M70 96 L150 132 L150 175 L70 175 Z"/>
+    <path d="M235 100 L320 138 L320 175 L235 175 Z"/>
+  </g>
   <!-- meandering river -->
   <path d="M226 104 Q200 122 236 132 Q280 144 218 152 Q170 158 208 166 Q226 170 218 175 L300 175 Q270 166 300 158 Q344 148 268 138 Q222 130 254 118 Q268 112 252 104 Z" fill="url(#wriver)"/>
   <path d="M243 122 q10 -4 20 1" stroke="#cfe6f2" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
