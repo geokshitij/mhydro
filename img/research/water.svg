@@ -1,29 +1,69 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 175" role="img" aria-label="Water">
   <defs>
     <linearGradient id="wsky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#cfe6f2"/>
-      <stop offset="1" stop-color="#eef7fb"/>
+      <stop offset="0" stop-color="#bfe0f0"/>
+      <stop offset="1" stop-color="#f2f9fc"/>
     </linearGradient>
     <linearGradient id="wriver" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#5aa3c9"/>
+      <stop offset="0" stop-color="#6fb0d2"/>
       <stop offset="1" stop-color="#2c5f7c"/>
+    </linearGradient>
+    <linearGradient id="wfront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#357193"/>
+      <stop offset="1" stop-color="#24506a"/>
+    </linearGradient>
+    <linearGradient id="wmist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <rect width="400" height="175" fill="url(#wsky)"/>
-  <circle cx="52" cy="36" r="16" fill="#fde9b8"/>
+  <circle cx="52" cy="36" r="24" fill="#fde9b8" opacity="0.35"/>
+  <circle cx="52" cy="36" r="15" fill="#fde9b8"/>
+  <!-- birds -->
+  <path d="M330 30 q4 -4 8 0 M338 30 q4 -4 8 0" stroke="#7da7c4" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <path d="M352 42 q3.5 -3.5 7 0 M359 42 q3.5 -3.5 7 0" stroke="#7da7c4" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  <!-- farthest ridge, visible through the gaps -->
+  <path d="M0 100 L40 78 L85 98 L130 62 L180 96 L250 66 L305 96 L370 64 L400 84 L400 120 L0 120 Z" fill="#bcd4e4" opacity="0.55"/>
   <!-- far ridge -->
-  <path d="M0 96 L60 52 L110 88 L170 44 L230 92 L300 50 L360 90 L400 66 L400 120 L0 120 Z" fill="#a8c6da"/>
+  <path d="M0 96 L60 52 L110 88 L170 44 L230 92 L300 50 L360 90 L400 66 L400 120 L0 120 Z" fill="#a8c6da" opacity="0.6"/>
   <!-- mid ridge -->
   <path d="M0 122 L80 62 L140 108 L205 58 L275 118 L340 70 L400 116 L400 140 L0 140 Z" fill="#7da7c4"/>
   <path d="M205 58 L216 70 L209 66 L205 73 L199 67 L193 70 Z" fill="#ffffff"/>
   <path d="M80 62 L89 72 L83 69 L80 75 L75 70 L70 72 Z" fill="#ffffff"/>
+  <path d="M340 70 L348 79 L343 76 L340 82 L335 77 L331 79 Z" fill="#ffffff"/>
   <!-- mist -->
-  <rect x="0" y="104" width="400" height="14" fill="#ffffff" opacity="0.35"/>
+  <rect x="0" y="98" width="400" height="26" fill="url(#wmist)"/>
   <!-- front ridge -->
-  <path d="M0 175 L0 128 L70 96 L150 132 L235 100 L320 138 L400 112 L400 175 Z" fill="#2c5f7c"/>
+  <path d="M0 175 L0 128 L70 96 L150 132 L235 100 L320 138 L400 112 L400 175 Z" fill="url(#wfront)"/>
   <!-- meandering river -->
   <path d="M226 104 Q200 122 236 132 Q280 144 218 152 Q170 158 208 166 Q226 170 218 175 L300 175 Q270 166 300 158 Q344 148 268 138 Q222 130 254 118 Q268 112 252 104 Z" fill="url(#wriver)"/>
   <path d="M243 122 q10 -4 20 1" stroke="#cfe6f2" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
   <path d="M238 150 q12 -4 22 0" stroke="#cfe6f2" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
   <path d="M252 165 q10 -4 20 1" stroke="#cfe6f2" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- riverside conifers -->
+  <g fill="#1e4257">
+    <path d="M96 152 L102 138 L108 152 Z"/>
+    <path d="M96 160 L102 148 L108 160 Z"/>
+    <rect x="100.6" y="160" width="2.8" height="5"/>
+    <path d="M124 158 L129 146 L134 158 Z"/>
+    <path d="M124 165 L129 155 L134 165 Z"/>
+    <rect x="127.8" y="165" width="2.4" height="4"/>
+  </g>
+  <!-- dark foreground banks -->
+  <path d="M0 175 L0 154 Q34 146 72 157 L92 175 Z" fill="#1a3a4d"/>
+  <path d="M400 175 L400 152 Q368 146 332 159 L312 175 Z" fill="#1a3a4d"/>
+  <!-- foreground conifers -->
+  <g fill="#14303f">
+    <path d="M20 158 L30 134 L40 158 Z"/>
+    <path d="M20 170 L30 150 L40 170 Z"/>
+    <rect x="27.6" y="170" width="4.8" height="5"/>
+    <path d="M48 164 L56 144 L64 164 Z"/>
+    <path d="M48 174 L56 158 L64 174 Z"/>
+    <rect x="54" y="174" width="4" height="1"/>
+    <path d="M356 162 L364 142 L372 162 Z"/>
+    <path d="M356 172 L364 156 L372 172 Z"/>
+    <rect x="362" y="172" width="4" height="3"/>
+  </g>
 </svg>

@@ -1,41 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 175" role="img" aria-label="Hazards">
   <defs>
     <linearGradient id="hsky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#cfc9bd"/>
+      <stop offset="0" stop-color="#b8b2a5"/>
       <stop offset="1" stop-color="#efe9dd"/>
+    </linearGradient>
+    <linearGradient id="hpeak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a6553"/>
+      <stop offset="1" stop-color="#5c4b3e"/>
     </linearGradient>
   </defs>
   <rect width="400" height="175" fill="url(#hsky)"/>
-  <!-- storm cloud upper left, in open sky -->
+  <!-- storm cloud upper left -->
+  <g fill="#6f6a5e">
+    <ellipse cx="98" cy="34" rx="46" ry="14"/>
+  </g>
   <g fill="#8b8578">
-    <ellipse cx="96" cy="28" rx="44" ry="15"/>
-    <ellipse cx="62" cy="36" rx="28" ry="11"/>
-    <ellipse cx="132" cy="36" rx="28" ry="11"/>
+    <ellipse cx="96" cy="26" rx="44" ry="14"/>
+    <ellipse cx="62" cy="34" rx="28" ry="11"/>
+    <ellipse cx="132" cy="34" rx="28" ry="11"/>
   </g>
-  <path d="M92 46 L80 66 L90 66 L78 88" stroke="#e0a437" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M94 48 L80 68 L91 68 L76 92" stroke="#e0a437" stroke-width="4.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M94 48 L80 68 L91 68 L76 92" stroke="#fde9b8" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
   <g stroke="#8b8578" stroke-width="2" stroke-linecap="round" opacity="0.7">
-    <line x1="116" y1="48" x2="110" y2="62"/>
-    <line x1="132" y1="48" x2="126" y2="62"/>
-    <line x1="148" y1="46" x2="142" y2="60"/>
+    <line x1="118" y1="48" x2="110" y2="64"/>
+    <line x1="134" y1="48" x2="126" y2="64"/>
+    <line x1="150" y1="46" x2="142" y2="62"/>
   </g>
+  <!-- farthest faint ridge -->
+  <path d="M0 132 L60 92 L120 128 L200 96 L300 132 Z" fill="#c4b295" opacity="0.55"/>
   <!-- back ridge -->
   <path d="M0 128 L70 68 L130 112 L190 74 L260 128 Z" fill="#b09877"/>
   <path d="M70 68 L79 78 L73 75 L70 82 L65 76 L60 78 Z" fill="#ffffff"/>
+  <!-- haze at ridge base -->
+  <rect x="0" y="118" width="400" height="18" fill="#efe9dd" opacity="0.45"/>
   <!-- main peak with scar -->
-  <path d="M130 152 L268 30 L400 152 Z" fill="#6b5849"/>
+  <path d="M130 152 L268 30 L400 152 Z" fill="url(#hpeak)"/>
   <path d="M268 30 L283 46 L274 42 L268 51 L261 43 L254 46 Z" fill="#ffffff"/>
   <!-- landslide scar -->
   <path d="M268 51 Q262 88 234 116 Q222 128 216 142 L262 142 Q276 104 282 68 Z" fill="#c98a4b"/>
-  <path d="M268 51 Q262 88 234 116" stroke="#a06a34" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M268 54 Q258 92 232 122 Q224 132 220 140" stroke="#a06a34" stroke-width="2.4" fill="none" opacity="0.7"/>
+  <path d="M274 60 Q266 98 244 126" stroke="#a06a34" stroke-width="1.6" fill="none" opacity="0.5"/>
+  <!-- dust puff at toe -->
+  <ellipse cx="238" cy="144" rx="26" ry="8" fill="#d8c6a8" opacity="0.6"/>
   <!-- debris at toe -->
   <circle cx="220" cy="148" r="6" fill="#8a6b50"/>
   <circle cx="238" cy="152" r="8" fill="#75563c"/>
   <circle cx="256" cy="148" r="5" fill="#8a6b50"/>
   <circle cx="228" cy="158" r="4" fill="#5f452f"/>
+  <!-- threatened house -->
+  <g>
+    <rect x="152" y="140" width="20" height="14" fill="#e8e2d4"/>
+    <path d="M149 140 L162 130 L175 140 Z" fill="#c9563c"/>
+    <rect x="159" y="146" width="5" height="8" fill="#6b5849"/>
+  </g>
   <!-- valley river -->
   <path d="M0 175 L0 158 Q120 146 250 160 T400 156 L400 175 Z" fill="#3d8bb5"/>
+  <path d="M60 165 q10 -4 20 0" stroke="#cfe6f2" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M310 164 q10 -4 20 0" stroke="#cfe6f2" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- dark foreground mounds -->
+  <path d="M0 175 L0 148 Q40 140 82 152 L100 175 Z" fill="#514234"/>
+  <path d="M400 175 L400 152 Q362 145 330 158 L316 175 Z" fill="#514234"/>
   <!-- warning sign in foreground -->
-  <rect x="52.4" y="118" width="3.6" height="30" fill="#6b5849"/>
+  <rect x="52.4" y="118" width="3.6" height="32" fill="#6b5849"/>
   <path d="M54 92 l19 33 h-38 Z" fill="#e0a437" stroke="#ffffff" stroke-width="2.4"/>
   <rect x="52.2" y="103" width="3.6" height="11" fill="#4a3a28"/>
   <circle cx="54" cy="119" r="2.2" fill="#4a3a28"/>
