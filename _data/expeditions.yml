@@ -1,0 +1,33 @@
+# Field expeditions and post-disaster surveys.
+# Photos live in /img/expeditions/<slug>/01.jpg ... numbered sequentially.
+
+- slug: darjeeling-debris-2025
+  title: "Debris flows and flash floods in Darjeeling"
+  date: "October 2025"
+  location: "Darjeeling Himalaya, India"
+  description: >
+    Post-event survey of the extreme rainfall of 4 and 5 October 2025,
+    which triggered debris flows, landslides, and flash floods across the
+    Darjeeling Himalaya. This fieldwork supports our study published in
+    Landslides.
+  photos: 15
+
+- slug: teesta-flood-2024
+  title: "Teesta River flood"
+  date: "June 2024"
+  location: "Teesta River, Sikkim and West Bengal, India"
+  description: >
+    The 2023 GLOF left the Teesta riverbed choked with sediment. The
+    reduced channel depth amplified monsoon flooding in June 2024,
+    submerging riverside settlements and roads.
+  photos: 2
+
+- slug: teesta-glof-2023
+  title: "Aftermath of the Teesta GLOF"
+  date: "October 2023"
+  location: "Teesta River, Sikkim and West Bengal, India"
+  description: >
+    Documentation along the Teesta River after the October 2023 glacial
+    lake outburst flood, recording bank erosion, damaged buildings, and
+    massive sediment deposition downstream.
+  photos: 6

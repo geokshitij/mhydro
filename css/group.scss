@@ -220,6 +220,42 @@ h2, h3 {
     }
 }
 
+/* Field expeditions */
+.expedition {
+    margin-bottom: 2.5em;
+
+    .expedition-meta {
+        color: $gray;
+        margin-bottom: 0.4em;
+    }
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 8px;
+
+    img {
+        width: 100%;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 4px;
+        display: block;
+    }
+
+    a:hover img {
+        opacity: 0.85;
+    }
+}
+
+.home-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    img {
+        height: 170px;
+    }
+}
+
 /* Publications */
 ul.pub-list {
     list-style: none;

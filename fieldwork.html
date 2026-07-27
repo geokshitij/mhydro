@@ -1,0 +1,24 @@
+---
+layout: default
+title: Field
+---
+
+{% for exp in site.data.expeditions %}
+    <section class="expedition">
+        <h3>{{ exp.title }}</h3>
+        <p class="expedition-meta">
+            {{ exp.date }} &middot; {{ exp.location }}
+        </p>
+        <p>{{ exp.description }}</p>
+        <div class="gallery">
+            {% for i in (1..exp.photos) %}
+                {% capture n %}{% if i < 10 %}0{{ i }}{% else %}{{ i }}{% endif %}{% endcapture %}
+                <a href="{{ site.base }}/img/expeditions/{{ exp.slug }}/{{ n }}.jpg">
+                    <img src="{{ site.base }}/img/expeditions/{{ exp.slug }}/{{ n }}.jpg"
+                         alt="{{ exp.title }}, photo {{ i }}"
+                         loading="lazy">
+                </a>
+            {% endfor %}
+        </div>
+    </section>
+{% endfor %}
