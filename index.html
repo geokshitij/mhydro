@@ -16,10 +16,11 @@ role-tables:
         The <b>Mountain Hydrology Group</b> is an independent research
         collective of scientists and engineers working across universities,
         research institutes, industry, and government on four continents. We
-        study how water shapes, and threatens, life in mountain
-        regions: floods and flash floods, landslides and debris flows, glacial
-        lakes and their outburst floods, groundwater, wildfire&ndash;hydrology
-        interactions, and the resilience of communities and infrastructure.
+        study how water shapes, and threatens, life in mountain regions. Our
+        work spans floods and flash floods, landslides and debris flows,
+        glacial lakes and their outburst floods, groundwater,
+        wildfire&ndash;hydrology interactions, and the resilience of
+        communities and infrastructure.
     </p>
     <p>
         We combine process-based understanding with artificial intelligence
@@ -54,7 +55,7 @@ role-tables:
         {% assign projects_by_date = projects_by_date | reverse %}
         {% for p in projects_by_date %}
             {% if p.status != "inactive" %}
-                <div class="col-md-6 col-lg-4 mb-4 d-flex">
+                <div class="col-md-6 mb-4 d-flex">
                     {% include project-card.html project=p %}
                 </div>
             {% endif %}

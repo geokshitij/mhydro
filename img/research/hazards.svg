@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 175" role="img" aria-label="Hazards">
+  <defs>
+    <linearGradient id="hsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfc9bd"/>
+      <stop offset="1" stop-color="#efe9dd"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="175" fill="url(#hsky)"/>
+  <!-- storm cloud upper left, in open sky -->
+  <g fill="#8b8578">
+    <ellipse cx="96" cy="28" rx="44" ry="15"/>
+    <ellipse cx="62" cy="36" rx="28" ry="11"/>
+    <ellipse cx="132" cy="36" rx="28" ry="11"/>
+  </g>
+  <path d="M92 46 L80 66 L90 66 L78 88" stroke="#e0a437" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke="#8b8578" stroke-width="2" stroke-linecap="round" opacity="0.7">
+    <line x1="116" y1="48" x2="110" y2="62"/>
+    <line x1="132" y1="48" x2="126" y2="62"/>
+    <line x1="148" y1="46" x2="142" y2="60"/>
+  </g>
+  <!-- back ridge -->
+  <path d="M0 128 L70 68 L130 112 L190 74 L260 128 Z" fill="#b09877"/>
+  <path d="M70 68 L79 78 L73 75 L70 82 L65 76 L60 78 Z" fill="#ffffff"/>
+  <!-- main peak with scar -->
+  <path d="M130 152 L268 30 L400 152 Z" fill="#6b5849"/>
+  <path d="M268 30 L283 46 L274 42 L268 51 L261 43 L254 46 Z" fill="#ffffff"/>
+  <!-- landslide scar -->
+  <path d="M268 51 Q262 88 234 116 Q222 128 216 142 L262 142 Q276 104 282 68 Z" fill="#c98a4b"/>
+  <path d="M268 51 Q262 88 234 116" stroke="#a06a34" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- debris at toe -->
+  <circle cx="220" cy="148" r="6" fill="#8a6b50"/>
+  <circle cx="238" cy="152" r="8" fill="#75563c"/>
+  <circle cx="256" cy="148" r="5" fill="#8a6b50"/>
+  <circle cx="228" cy="158" r="4" fill="#5f452f"/>
+  <!-- valley river -->
+  <path d="M0 175 L0 158 Q120 146 250 160 T400 156 L400 175 Z" fill="#3d8bb5"/>
+  <!-- warning sign in foreground -->
+  <rect x="52.4" y="118" width="3.6" height="30" fill="#6b5849"/>
+  <path d="M54 92 l19 33 h-38 Z" fill="#e0a437" stroke="#ffffff" stroke-width="2.4"/>
+  <rect x="52.2" y="103" width="3.6" height="11" fill="#4a3a28"/>
+  <circle cx="54" cy="119" r="2.2" fill="#4a3a28"/>
+</svg>

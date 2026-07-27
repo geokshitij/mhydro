@@ -15,12 +15,19 @@
             {% if init == "/" %}
                 {% capture imgurl %}{{site.base}}{{project.image}}{% endcapture %}
             {% endif %}
-            <a href="{{ proj-url }}">
+            {% if project.no-link != true or project.link %}
+                <a href="{{ proj-url }}">
+                    <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{project.title}}"/>
+                </a>
+            {% else %}
                 <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{project.title}}"/>
-            </a>
+            {% endif %}
         {% endif %}
         {% if project.notitle != true %}
             <h4 class="card-title">
+                {% if project.icon %}
+                    <span class="fa fa-{{ project.icon }} card-icon"></span>
+                {% endif %}
                 {{  project.title }}
             </h4>
         {% endif %}
