@@ -123,3 +123,117 @@
   year: 2021
   url: "https://doi.org/10.3390/earth2010003"
   type: journal
+
+# Mountain-related papers from Nitesh Khadka's CV
+
+- title: "Glacial Lake Outburst Floods (GLOFs)"
+  authors: "<b>Khadka, N.</b>"
+  venue: "Book chapter in Data-Driven Earth Observation for Disaster Management (Elsevier), pp. 271-286"
+  year: 2026
+  url: "https://doi.org/10.1016/B978-0-443-33803-8.00007-X"
+  type: journal
+
+- title: "Challenges in predicting glacial lake outburst floods and suggested pathways forward"
+  authors: "Zhang, G., Zheng, G., <b>Khadka, N.</b>, Rinzin, S., Tang, Q., Wang, X., & Carrivick, J. L."
+  venue: "The Innovation, 101349"
+  year: 2026
+  url: "https://doi.org/10.1016/j.xinn.2026.101349"
+  type: journal
+
+- title: "Glacial Lake Observatory (GLO): Annual dataset of glacial lakes in Nepal and transboundary catchments (2017–2024)"
+  authors: "Rawlins, L. D., Watson, C. S., Bhambri, R., <b>Khadka, N.</b>, & Chand, M. B."
+  venue: "Earth System Science Data, 18, 7"
+  year: 2026
+  url: "https://doi.org/10.5194/essd-18-5143-2026"
+  type: journal
+
+- title: "Integrating machine learning and numerical methods for enhanced landslide susceptibility and hazard mapping in the Bhotekoshi watershed, central Nepal"
+  authors: "Gurung, G., Chen, N., Hu, G., <b>Khadka, N.</b>, Sapkota, L., <b>Gouli, M. R.</b>, & Tian, S."
+  venue: "Journal of Mountain Science"
+  year: 2026
+  url: "https://doi.org/10.1007/s11629-025-9951-2"
+  type: journal
+
+- title: "Quantitative assessment of the GLOF risk along China-Nepal transboundary basins by integrating remote sensing, machine learning, and hydrodynamic model"
+  authors: "<b>Gouli, M. R.</b>, Hu, K., <b>Khadka, N.</b>, Liu, S., Yifan, S., Adhikari, K., & <b>Talchabhadel, R.</b>"
+  venue: "International Journal of Disaster Risk Reduction, 118, 105231"
+  year: 2025
+  url: "https://doi.org/10.1016/j.ijdrr.2025.105231"
+  type: journal
+
+- title: "Multi breach GLOF hazard and exposure analysis of Birendra Lake in the Manaslu Region of Nepal"
+  authors: "Poudel, U., <b>Gouli, M. R.</b>, Hu, K., <b>Khadka, N.</b>, Regmi, R. K., & Thapa, B. R."
+  venue: "Natural Hazards Research, 5(4), 800-813"
+  year: 2025
+  url: "https://doi.org/10.1016/j.nhres.2025.03.007"
+  type: journal
+
+- title: "An ice-snow avalanche triggered small glacial lake outburst flood in Birendra Lake, Nepal Himalaya"
+  authors: "<b>Khadka, N.</b>, Zheng, G., Chen, X., Zhong, Y., Allen, S. K., & <b>Gouli, M. R.</b>"
+  venue: "Natural Hazards"
+  year: 2024
+  url: "https://doi.org/10.1007/s11069-024-07014-0"
+  type: journal
+
+- title: "Glacial Lake outburst floods threaten China-Nepal connectivity: Synergistic study of remote sensing, GIS and hydrodynamic modeling with regional implications"
+  authors: "<b>Khadka, N.</b>, Chen, X., Liu, W., <b>Gouli, M. R.</b>, Zhang, C., Shrestha, B., & Sharma, S."
+  venue: "Science of the Total Environment, 948, 174701"
+  year: 2024
+  url: "https://doi.org/10.1016/j.scitotenv.2024.174701"
+  type: journal
+
+- title: "Risk perception and vulnerability of communities in Nepal to transboundary glacial lake outburst floods from Tibet, China"
+  authors: "<b>Khadka, N.</b>, Chen, X., Shrestha, M., & Liu, W."
+  venue: "International Journal of Disaster Risk Reduction, 107, 104476"
+  year: 2024
+  url: "https://doi.org/10.1016/j.ijdrr.2024.104476"
+  type: journal
+
+- title: "Climate change and its impacts on glaciers and glacial lakes in Nepal Himalayas"
+  authors: "<b>Khadka, N.</b>, Chen, X., Sharma, S., & Shrestha, B."
+  venue: "Regional Environmental Change, 23(4), 143"
+  year: 2023
+  url: "https://doi.org/10.1007/s10113-023-02142-y"
+  type: journal
+
+- title: "Hazard assessment of a pair of glacial lakes in Nepal Himalaya: unfolding combined outbursts of Upper and Lower Barun"
+  authors: "<b>Gouli, M. R.</b>, Hu, K., <b>Khadka, N.</b>, & <b>Talchabhadel, R.</b>"
+  venue: "Geomatics, Natural Hazards and Risk, 14(1), 2266219"
+  year: 2023
+  url: "https://doi.org/10.1080/19475705.2023.2266219"
+  type: journal
+
+- title: "Evolution and bathymetry of glacial lake at the lowest elevation in Nepal Himalaya"
+  authors: "Kandel, S., <b>Khadka, N.</b>, Tiwari, D., Shrestha, D., & Rijal, K."
+  venue: "Journal of Mountain Science, 20(1), 141-144"
+  year: 2023
+  url: "https://doi.org/10.1007/s11629-022-7615-z"
+  type: journal
+
+- title: "An outlook on the applicability of satellite precipitation products for monitoring extreme precipitation events in Nepal Himalaya"
+  authors: "<b>Talchabhadel, R.</b>, Sharma, S., <b>Khadka, N.</b>, Hamal, K., Karki, S., & Thapa, B. R."
+  venue: "Weather, 77(5)"
+  year: 2022
+  url: "https://doi.org/10.1002/wea.414"
+  type: journal
+
+- title: "Evaluation of Glacial Lake Outburst Flood susceptibility using multi-criteria assessment framework in Mahalangur Himalaya"
+  authors: "<b>Khadka, N.</b>, Chen, X., Nie, Y., Thakuri, S., Zheng, G., & Zhang, G."
+  venue: "Frontiers in Earth Science, 8, 601288"
+  year: 2021
+  url: "https://doi.org/10.3389/feart.2020.601288"
+  type: journal
+
+- title: "The state of six dangerous glacial lakes in the Nepalese Himalaya"
+  authors: "<b>Khadka, N.</b>, Zhang, G., & Chen, W."
+  venue: "Terrestrial, Atmospheric and Oceanic Sciences, 30, 1-10"
+  year: 2019
+  url: "https://doi.org/10.3319/TAO.2018.09.28.03"
+  type: journal
+
+- title: "Glacial Lakes in the Nepal Himalaya: Inventory and Decadal Dynamics (1977–2017)"
+  authors: "<b>Khadka, N.</b>, Zhang, G., & Thakuri, S."
+  venue: "Remote Sensing, 10(12), 1913"
+  year: 2018
+  url: "https://doi.org/10.3390/rs10121913"
+  type: journal
