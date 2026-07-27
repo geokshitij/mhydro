@@ -46,6 +46,10 @@ a:hover {
         margin-bottom: 0.3em;
     }
 
+    .phone {
+        white-space: nowrap;
+    }
+
     .disclaimer-label {
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -83,12 +87,23 @@ a > .fa {
 
 /* Jumbotron */
 .jumbotron {
-    text-align: justify;
+    text-align: left;
     padding-top: 1.5em;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
     font-size: 115%;
     background: linear-gradient(180deg, #f2f7fa 0%, #ffffff 100%);
     border-left: 4px solid $mountain-mid;
+
+    .intro-photo {
+        box-shadow: 0 4px 14px rgba(44, 95, 124, 0.25);
+    }
+
+    .photo-credit {
+        color: $gray;
+        font-size: 0.65em;
+        text-align: center;
+        margin: 0.6em 0 0 0;
+    }
 }
 
 /* Group logo */
