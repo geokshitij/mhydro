@@ -321,6 +321,49 @@ h2, h3 {
     }
 }
 
+/* Media page cards, same look as the Science News card on the home page */
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 18px 14px;
+    margin-bottom: 2em;
+}
+
+.media-card {
+    margin: 0;
+
+    img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        border-radius: 4px;
+        background: $light-gray;
+    }
+
+    a:hover img {
+        opacity: 0.85;
+    }
+
+    figcaption {
+        margin-top: 0.45em;
+        font-size: 0.95rem;
+        line-height: 1.35;
+
+        > a {
+            font-weight: 600;
+        }
+    }
+
+    .media-authors,
+    .media-outlet {
+        display: block;
+        color: $gray;
+        font-size: 0.85rem;
+        margin-top: 0.15em;
+    }
+}
+
 /* Publications */
 ul.pub-list {
     list-style: none;

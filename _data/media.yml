@@ -1,64 +1,75 @@
 # Media coverage and op-eds by group members.
 # type: coverage | oped
+# image: 16:9 preview shown on the Media page
 
 - title: "In the wake of the flood, could Nepal avert the next disaster?"
   outlet: "Science News"
   year: 2026
   url: "https://www.sciencenews.org/article/flood-nepal-prepare-disaster-climate"
+  image: /img/media/science-news-2026.jpg
   type: coverage
 
 - title: "Flash flooding devastates Nepal (interview with Kshitij Dahal)"
   outlet: "FOX Weather"
   year: 2026
   url: "https://geokshitij.github.io/mhydro/blog/2026/08/26/langtang-fox-weather.html"
+  image: /img/media/fox-weather-2026.jpg
   type: coverage
 
-- title: "Early Career Spotlight, Kshitij Dahal"
+- title: "Prediction for the places we measure least (Early Career Spotlight)"
   outlet: "AGU Hydrology Section Newsletter"
   year: 2026
   url: "https://higherlogicdownload.s3.amazonaws.com/AGU/31ea296c-2c70-4dad-92ef-c4681bc6a288/UploadedImages/Newsletters/AGU_Hydrology_Section_Newsletter_-_July_August_2026.pdf"
+  image: /img/media/agu-2026.jpg
   type: coverage
 
 - title: "GeoAI-based study charts flood exposure of schools in state"
   outlet: "The Times of India"
   year: 2026
   url: "https://timesofindia.indiatimes.com/city/patna/geoai-based-study-charts-flood-exposure-of-schools-in-state/amp_articleshow/128004523.cms"
+  image: /img/media/times-of-india-2026.jpg
   type: coverage
 
 - title: "Tourism and biodiversity at risk as raging wildfires devastate forests in Nepal"
   outlet: "China Daily"
   year: 2025
   url: "https://www.chinadaily.com.cn/a/202503/27/WS67e4bd4da3101d4e4dc2b29b.html"
+  image: /img/media/china-daily-2025.jpg
   type: coverage
 
 - title: "Open burning main cause of air pollution"
   outlet: "The Rising Nepal"
   year: 2025
   url: "https://risingnepaldaily.com/news/58977"
+  image: /img/media/rising-nepal-2025.jpg
   type: coverage
 
 - title: "Wildfire Ravage Hundreds Of Acres Of Forest Land In Nepal"
   outlet: "WION TV"
   year: 2025
   url: "https://youtu.be/UFb_3MyJpew?si=4wbBrZYWRb3tuQkm"
+  image: /img/media/wion-2025.jpg
   type: coverage
 
 - title: "Ignored infernos (Editorial)"
   outlet: "The Kathmandu Post"
   year: 2025
   url: "https://kathmandupost.com/editorial/2025/03/18/ignored-infernos"
+  image: /img/media/kathmandu-post-2025.jpg
   type: coverage
 
 - title: "Back to the land in the cities"
   outlet: "Nepali Times"
   year: 2024
   url: "https://nepalitimes.com/here-now/back-to-the-land-in-the-cities"
+  image: /img/media/nepali-times-2024.jpg
   type: coverage
 
 - title: "ICON Principles Underused as a Natural Hazards Research Tool"
   outlet: "Eos"
   year: 2022
   url: "https://doi.org/10.1029/2022EO220113"
+  image: /img/media/eos-2022.jpg
   type: coverage
 
 - title: "World Water Day 2025 on Glacier Preservation: What It Means for Nepal?"
@@ -66,6 +77,7 @@
   authors: "Dahal, K. & Thapa, B. R."
   year: 2025
   url: "https://myrepublica.nagariknetwork.com/index.php/news/world-water-day-2025-on-glacier-preservation-what-it-means-for-nepal-87-57.html"
+  image: /img/media/republica-2025.jpg
   type: oped
 
 - title: "Landslide susceptibility and monsoon preparedness in Nepal: An engineering perspective"
@@ -73,4 +85,5 @@
   authors: "Dahal, K., Talchabhadel, R., & Thapa, B. R."
   year: 2021
   url: "https://english.onlinekhabar.com/landslide-susceptibility-and-monsoon-preparedness-in-nepal-an-engineering-perspective.html"
+  image: /img/media/onlinekhabar-2021.jpg
   type: oped

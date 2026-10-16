@@ -1,0 +1,11 @@
+{% assign item = include.item %}
+<figure class="media-card">
+    <a href="{{ item.url }}">
+        <img src="{{ site.base }}{{ item.image }}" alt="{{ item.title }}" loading="lazy">
+    </a>
+    <figcaption>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+        {% if item.authors %}<span class="media-authors">{{ item.authors }}</span>{% endif %}
+        <span class="media-outlet"><i>{{ item.outlet }}</i>, {{ item.year }}</span>
+    </figcaption>
+</figure>
