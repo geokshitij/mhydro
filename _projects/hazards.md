@@ -9,13 +9,13 @@ description: |
     - Wildfire-hydrology interactions
 people:
   - kshitij-dahal
+  - netra-regmi
   - somnath-bera
   - nitesh-khadka
   - manish-gouli
   - abinash-silwal
   - shikshita-bhandari
   - yogesh-bhattarai
-  - netra-regmi
 icon: exclamation-triangle
 image: /img/research/hazards.svg
 layout: project

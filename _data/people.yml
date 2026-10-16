@@ -13,6 +13,13 @@ kshitij-dahal:
     scholar: "https://scholar.google.com/citations?user=jOtnPBIAAAAJ"
     github: geokshitij
 
+netra-regmi:
+    display_name: "Netra Regmi"
+    role: member
+    bio: "Oklahoma Geological Survey, USA"
+    image: /img/people/netra-regmi.jpg
+    webpage: "https://www.ou.edu/ogs/staff/regmi_netra"
+
 yogesh-bhattarai:
     display_name: "Yogesh Bhattarai"
     role: member
@@ -135,10 +142,3 @@ manish-gouli:
     image: /img/people/manish-gouli.jpg
     linkedin: "https://www.linkedin.com/in/manish-raj-gouli-219a45148"
     scholar: "https://scholar.google.com/citations?user=nx1_IpIAAAAJ"
-
-netra-regmi:
-    display_name: "Netra Regmi"
-    role: member
-    bio: "Oklahoma Geological Survey, USA"
-    image: /img/people/netra-regmi.jpg
-    webpage: "https://www.ou.edu/ogs/staff/regmi_netra"
