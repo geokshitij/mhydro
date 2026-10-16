@@ -15,6 +15,7 @@ people:
   - abinash-silwal
   - shikshita-bhandari
   - yogesh-bhattarai
+  - netra-regmi
 icon: exclamation-triangle
 image: /img/research/hazards.svg
 layout: project
