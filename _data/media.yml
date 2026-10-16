@@ -1,6 +1,24 @@
 # Media coverage and op-eds by group members.
 # type: coverage | oped
 
+- title: "In the wake of the flood, could Nepal avert the next disaster?"
+  outlet: "Science News"
+  year: 2026
+  url: "https://www.sciencenews.org/article/flood-nepal-prepare-disaster-climate"
+  type: coverage
+
+- title: "Flash flooding devastates Nepal (interview with Kshitij Dahal)"
+  outlet: "FOX Weather"
+  year: 2026
+  url: "https://geokshitij.github.io/mhydro/blog/2026/08/26/rasuwa-fox-weather.html"
+  type: coverage
+
+- title: "Early Career Spotlight, Kshitij Dahal"
+  outlet: "AGU Hydrology Section Newsletter"
+  year: 2026
+  url: "https://higherlogicdownload.s3.amazonaws.com/AGU/31ea296c-2c70-4dad-92ef-c4681bc6a288/UploadedImages/Newsletters/AGU_Hydrology_Section_Newsletter_-_July_August_2026.pdf"
+  type: coverage
+
 - title: "GeoAI-based study charts flood exposure of schools in state"
   outlet: "The Times of India"
   year: 2026

@@ -256,6 +256,21 @@ h2, h3 {
     }
 }
 
+/* Featured simulation video */
+.feature-video {
+    display: block;
+    width: 100%;
+    max-width: 780px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 14px rgba(44, 95, 124, 0.25);
+
+    &.square {
+        max-width: 620px;
+    }
+}
+
 /* Publications */
 ul.pub-list {
     list-style: none;
