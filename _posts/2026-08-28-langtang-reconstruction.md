@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Reconstructing the 2026 Rasuwa disaster"
+title: "2026 Langtang event preliminary reconstruction"
 icon: play-circle
 ---
 
-We reproduced the 26 August 2026 Rasuwa flood disaster in physics-based
+We reproduced the 26 August 2026 Langtang event in physics-based
 simulations. In this preliminary reconstruction the avalanche races down the
 gorge at over 150 km/h, and the flood it fed reaches Timure and Syabrubesi in
 about fourteen minutes at roughly 40 km/h.
 
 <video class="feature-video square" controls muted loop playsinline preload="metadata"
-       poster="{{ site.base }}/img/simulations/rasuwa-2026.jpg">
-    <source src="{{ site.base }}/img/simulations/rasuwa-2026.mp4" type="video/mp4">
+       poster="{{ site.base }}/img/simulations/langtang-2026.jpg">
+    <source src="{{ site.base }}/img/simulations/langtang-2026.mp4" type="video/mp4">
 </video>
 
 The seismic signal was the collapse itself, a magnitude 5.2 event that USGS

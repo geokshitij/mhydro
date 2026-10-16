@@ -271,6 +271,36 @@ h2, h3 {
     }
 }
 
+/* Side-by-side videos on the home page */
+.video-pair {
+    display: grid;
+    grid-template-columns: 1.07fr 1.78fr;
+    gap: 12px;
+    align-items: start;
+
+    figure {
+        margin: 0;
+    }
+
+    video {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        background: #000;
+    }
+
+    figcaption {
+        color: $gray;
+        font-size: 0.875rem;
+        margin-top: 0.4em;
+    }
+
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Publications */
 ul.pub-list {
     list-style: none;
