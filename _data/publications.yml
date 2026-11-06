@@ -2,11 +2,12 @@
 # Bold (<b>) marks group members. Sorted newest-first on the page by `year`.
 # type: journal | inreview | report
 
-- title: "Rethinking Cascading High Mountain Hazards and Early Warning in the Himalayas"
+- title: "Rethinking cascading high mountain hazards and early warning in the Himalayas"
   authors: "<b>Silwal, A.</b> & <b>Dahal, K.</b>"
   venue: "npj Natural Hazards"
   year: 2026
-  note: "Accepted"
+  url: "https://doi.org/10.1038/s44304-026-00292-7"
+  note: "Article in press"
   type: journal
 
 - title: "Extreme event-induced landslides and flooding in Darjeeling, 4–5 October 2025"
