@@ -1,0 +1,53 @@
+# Highlights on the home page. Every block follows the same pattern:
+# a title, an optional one-line lead, and a row of up to three 16:9 cards.
+#
+# Card fields:
+#   kind:    image | video   (default image)
+#   src:     image path, or video file for kind: video
+#   poster:  still frame shown before a video plays
+#   link:    where an image card goes when clicked
+#   caption: short text under the card (HTML allowed, links welcome)
+# Paths that start with / are prefixed with the site base automatically.
+# Keep at most three cards per block so rows line up.
+
+- title: "2026 Langtang Disaster"
+  cards:
+    - kind: video
+      src: /img/simulations/langtang-2026.mp4
+      poster: /img/simulations/langtang-2026.jpg
+      caption: '<a href="/mhydro/blog/2026/08/28/langtang-reconstruction.html">Preliminary reconstruction</a> of the rock-ice avalanche and flood'
+    - kind: video
+      src: /img/media/fox-weather-2026.mp4
+      poster: /img/media/fox-weather-2026.jpg
+      caption: 'Kshitij Dahal on <a href="/mhydro/blog/2026/08/26/langtang-fox-weather.html">FOX Weather</a>'
+    - src: /img/media/science-news-2026.jpg
+      link: https://www.sciencenews.org/article/flood-nepal-prepare-disaster-climate
+      caption: '<a href="https://www.sciencenews.org/article/flood-nepal-prepare-disaster-climate">Could Nepal avert the next disaster?</a> <i>Science News</i>'
+
+- title: "Cascading hazards and early warning in the Himalayas"
+  lead: 'Silwal &amp; Dahal, <a href="https://doi.org/10.1038/s44304-026-00292-7"><i>npj Natural Hazards</i> (2026)</a>. Seven recent disasters show that Himalayan floods begin through many cascading pathways, not only glacial lake outbursts.'
+  cards:
+    - src: /img/highlights/npj-2026-paper-thumb.jpg
+      link: https://doi.org/10.1038/s44304-026-00292-7
+      caption: '<a href="https://doi.org/10.1038/s44304-026-00292-7">Read the paper</a>'
+    - src: /img/highlights/npj-2026-fig1-thumb.jpg
+      link: /img/highlights/npj-2026-fig1.jpg
+      caption: 'Seven cascading disasters across the Himalaya, 2021 to 2026'
+    - src: /img/highlights/npj-2026-fig3-thumb.jpg
+      link: /img/highlights/npj-2026-fig3.jpg
+      caption: 'A four-tier framework for cascade-aware risk reduction'
+
+- title: "From the Field"
+  cards:
+    - src: /img/expeditions/darjeeling-debris-2025/01.jpg
+      link: /fieldwork.html
+      caption: 'Debris flow track through a village in Darjeeling, October 2025'
+    - src: /img/expeditions/teesta-flood-2024/02.jpg
+      link: /fieldwork.html
+      caption: 'Flooded riverfront along the Teesta River, June 2024'
+    - src: /img/expeditions/teesta-glof-2023/04.jpg
+      link: /fieldwork.html
+      caption: 'Sediment-filled Teesta River after the 2023 GLOF'
+  more:
+    text: "More from the field"
+    link: /fieldwork.html

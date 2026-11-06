@@ -1,0 +1,33 @@
+{% comment %}
+One highlight block. Usage: {% include highlight-block.html block=block %}
+Fields are described at the top of _data/highlights.yml.
+{% endcomment %}
+{% assign block = include.block %}
+<div class="highlight">
+    <h3>{{ block.title }}</h3>
+    {% if block.lead %}<p class="highlight-lead">{{ block.lead }}</p>{% endif %}
+    <div class="highlight-row">
+        {% for card in block.cards %}
+            {% capture src %}{% if card.src contains '://' %}{{ card.src }}{% else %}{{ site.base }}{{ card.src }}{% endif %}{% endcapture %}
+            {% capture link %}{% if card.link contains '://' %}{{ card.link }}{% else %}{{ site.base }}{{ card.link }}{% endif %}{% endcapture %}
+            <figure>
+                {% if card.kind == 'video' %}
+                    <video controls muted playsinline preload="metadata"
+                           poster="{{ site.base }}{{ card.poster }}">
+                        <source src="{{ src }}" type="video/mp4">
+                    </video>
+                {% elsif card.link %}
+                    <a href="{{ link }}"><img src="{{ src }}" alt="{{ card.caption | strip_html }}" loading="lazy"></a>
+                {% else %}
+                    <img src="{{ src }}" alt="{{ card.caption | strip_html }}" loading="lazy">
+                {% endif %}
+                <figcaption>{{ card.caption }}</figcaption>
+            </figure>
+        {% endfor %}
+    </div>
+    {% if block.more %}
+        <p class="highlight-more">
+            <a href="{{ site.base }}{{ block.more.link }}">{{ block.more.text }}&hellip;</a>
+        </p>
+    {% endif %}
+</div>
