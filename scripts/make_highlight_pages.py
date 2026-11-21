@@ -39,7 +39,7 @@ for b in load():
     if desc:
         lines.append(f"description: {json.dumps(desc)}")
     if image and "://" not in image:
-        lines.append(f"image: {image}")
+        lines.append(f"share_image: {image}")
     lines.append("---")
     path = os.path.join(ROOT, "highlights", hid + ".html")
     open(path, "w").write("\n".join(lines) + "\n")

@@ -8,7 +8,6 @@ Fields are described at the top of _data/highlights.yml.
 {% capture hpage %}{{ site.base }}/highlights/{{ hid | strip }}.html{% endcapture %}
 <div class="highlight" id="{{ hid | strip }}">
     {% if include.standalone %}
-    <h3>{{ block.title }}</h3>
     {% if block.date %}<p class="highlight-date">{{ block.date | date: "%-d %B %Y" }}</p>{% endif %}
     {% else %}
     <h3><a class="highlight-anchor" href="{{ hpage | strip }}" title="Open this highlight on its own page">{{ block.title }}</a></h3>
