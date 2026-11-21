@@ -1,126 +1,16 @@
 <!DOCTYPE html>
-<html>
+{% assign target = page.url | replace: 'index.html', '' | prepend: 'https://livingmountains.github.io' %}
+<html lang="en">
     <head>
-        {% if page.title and page.title != "Home" %}
-            <title>{{ page.title }} | {{ site.name }}</title>
-        {% else %}
-            <title>{{ site.name }}</title>
-        {% endif %}
         <meta charset="utf-8">
-        {% capture og_title %}{% if page.title and page.title != "Home" %}{{ page.title }}{% else %}{{ site.name }}{% endif %}{% endcapture %}
-        {% capture og_desc %}{{ page.description | default: site.description }}{% endcapture %}
-        <meta name="description" content="{{ og_desc | strip_html | strip_newlines | strip | escape }}">
-        <meta property="og:site_name" content="{{ site.name }}">
-        <meta property="og:title" content="{{ og_title | strip | escape }}">
-        <meta property="og:description" content="{{ og_desc | strip_html | strip_newlines | strip | escape }}">
-        <meta property="og:url" content="{{ site.url }}{{ site.base }}{{ page.url | replace: 'index.html', '' }}">
-        <meta property="og:type" content="website">
-        {% if page.share_image %}
-        <meta property="og:image" content="{{ site.url }}{{ site.base }}{{ page.share_image }}">
-        <meta name="twitter:card" content="summary_large_image">
-        {% else %}
-        <meta property="og:image" content="{{ site.url }}{{ site.base }}/img/imja-tsho.jpg">
-        <meta name="twitter:card" content="summary">
-        {% endif %}
-        <link rel="icon" type="image/svg+xml"
-              href="{{ site.base }}/img/favicon.svg">
-        <link rel="icon" type="image/png" sizes="32x32"
-              href="{{ site.base }}/img/favicon-32.png">
-        <link rel="apple-touch-icon"
-              href="{{ site.base }}/img/apple-touch-icon.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet"
-              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-              crossorigin="anonymous">
-        <link rel="stylesheet"
-              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{{ site.base }}/css/group.css?v={{ site.time | date: '%s' }}">
+        <title>Moved to Living Mountains Group</title>
+        <link rel="canonical" href="{{ target }}">
+        <meta name="robots" content="noindex">
+        <meta http-equiv="refresh" content="0; url={{ target }}">
+        <script>location.replace("{{ target }}" + location.hash);</script>
     </head>
     <body>
-        <div class="container">
-            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
-            <div class="header d-flex
-                        flex-column
-                        flex-md-row justify-content-md-between">
-                <a href="{{ site.base }}/" class="">
-                    <img src="{{ site.base }}/img/logo.svg"
-                         alt="Mountain Hydrology Group" id="logo">
-                </a>
-                <ul class="nav nav-pills justify-content-center">
-
-                    {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
-                    {% for item in site.navigation %}
-
-                        {% assign itemshorturl = item.link | replace:'.html','' %}
-
-                        {% assign maybe-active = '' %}
-                        {% if item.title == 'Research' and page.layout == 'project' %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-                        {% if itemshorturl == shorturl or is-research %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-
-                        <li class="nav-item">
-                            <a class="nav-link {{ maybe-active }}"
-                               href="{{ site.base }}{{ item.link }}">
-                                {{ item.title }}
-                            </a>
-                        </li>
-
-                    {% endfor %}
-
-                </ul>
-            </div>
-
-            {% if page.image %}
-                <img src="{{ page.image }}"
-                     alt="{{ page.title }}"
-                     style="max-width: 400px"
-                     class="img-fluid mx-auto d-block mb-4"/>
-            {% endif %}
-
-            {% if page.notitle != true %}
-                <h1>{{ page.title }}</h1>
-            {% endif %}
-
-            {{ content }}
-
-            <div class="footer">
-                <div class="d-flex flex-column flex-md-row
-                            justify-content-md-between align-items-center">
-                    <div class="footer-brand">
-                        <a href="{{ site.base }}/">
-                            <img src="{{ site.base }}/img/logo.svg"
-                                 alt="Mountain Hydrology Group" id="footer-logo">
-                        </a>
-                        <p>
-                            Contact
-                            <a href="mailto:geokshitij@gmail.com">geokshitij@gmail.com</a><br>
-                            <a href="tel:+14809196738" class="phone">+1 (480) 919-6738</a>
-                        </p>
-                    </div>
-                    <div class="footer-text">
-                        <p class="disclaimer-label">Disclaimer</p>
-                        <p class="disclaimer-body">
-                            The Mountain Hydrology Group is an independent
-                            research collective. Members contribute in their
-                            personal capacity, and nothing on this site
-                            represents their employers.
-                        </p>
-                        <p class="copyright">
-                            &copy; 2026 Mountain Hydrology Group &middot;
-                            Last updated July 24, 2026
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div> <!-- /container -->
-
-        <!-- Support retina images. -->
-        <script type="text/javascript"
-                src="{{ site.base }}/js/srcset-polyfill.js"></script>
+        <p>The Mountain Hydrology Group is now <b>Living Mountains Group</b>.
+           This page has moved to <a href="{{ target }}">{{ target }}</a>.</p>
     </body>
 </html>
