@@ -2,6 +2,13 @@
 # Bold (<b>) marks group members. Sorted newest-first on the page by `year`.
 # type: journal | inreview | report
 
+- title: "COHESION: a connectivity-based framework for evaluating landslide susceptibility, runout hazards, and hillslope–channel coupling"
+  authors: "Schmitt, R. J. P., <b>Bhandari, S.</b>, Vogl, A., & Marc, O."
+  venue: "Natural Hazards and Earth System Sciences, 26, 5979–6002"
+  year: 2026
+  url: "https://doi.org/10.5194/nhess-26-5979-2026"
+  type: journal
+
 - title: "Rethinking cascading high mountain hazards and early warning in the Himalayas"
   authors: "<b>Silwal, A.</b> & <b>Dahal, K.</b>"
   venue: "npj Natural Hazards"
