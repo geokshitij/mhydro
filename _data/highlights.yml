@@ -8,6 +8,9 @@
 #            Blocks without a date get a link from the title alone.
 #   lead:    optional one-line text under the heading
 #
+# Each highlight also has its own page in highlights/. After adding or renaming
+# a highlight, run:  python3 scripts/make_highlight_pages.py
+#
 # Card fields:
 #   kind:    image | video   (default image)
 #   src:     image path, or video file for kind: video
@@ -19,7 +22,7 @@
 
 - title: "Landslide runout and river connections in Nepal"
   date: "2026-11-20"
-  lead: 'Schmitt, <b>Bhandari</b>, Vogl &amp; Marc, <a href="https://doi.org/10.5194/nhess-26-5979-2026"><i>Natural Hazards and Earth System Sciences</i> (2026)</a>. Co-led by group member <b>Shikshita Bhandari</b> (Stanford University). A new framework maps about one million potential landslides in the Kaligandaki Basin, Nepal, and traces where each would run out. Runout enlarges the hazard area by about half, and a third of the landslides connect to rivers.'
+  lead: 'Schmitt, <b>Shikshita Bhandari</b>, Vogl &amp; Marc, <a href="https://doi.org/10.5194/nhess-26-5979-2026"><i>Natural Hazards and Earth System Sciences</i> (2026)</a>. She co-led the study as a group member at Stanford University. A new framework maps about one million potential landslides in the Kaligandaki Basin, Nepal, and traces where each would run out. Runout enlarges the hazard area by about half, and a third of the landslides connect to rivers.'
   cards:
     - src: /img/highlights/nhess-2026-paper-thumb.jpg
       link: https://doi.org/10.5194/nhess-26-5979-2026

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% assign block = site.data.highlights | where: "title", page.title | first %}
+<p class="highlight-nav">
+    <a href="{{ site.base }}/">&larr; Home</a> &middot;
+    <a href="{{ site.base }}/highlights/">All highlights</a>
+</p>
+{% if block %}
+    {% include highlight-block.html block=block standalone=true %}
+{% else %}
+    <p>This highlight is no longer listed. <a href="{{ site.base }}/highlights/">See all highlights</a>.</p>
+{% endif %}
+<p class="highlight-share">Share this page: <a href="{{ site.url }}{{ site.base }}{{ page.url }}">{{ site.url }}{{ site.base }}{{ page.url }}</a></p>
