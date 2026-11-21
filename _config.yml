@@ -4,7 +4,7 @@ description: >
   science for mountain regions.
 url: https://geokshitij.github.io
 
-exclude: [README.md, PHOTOS-NEEDED.md]
+exclude: [README.md, PHOTOS-NEEDED.md, scripts]
 
 # The path structure for blog posts.
 permalink: /blog/:year/:month/:day/:title.html
