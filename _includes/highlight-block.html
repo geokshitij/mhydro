@@ -3,8 +3,11 @@ One highlight block. Usage: {% include highlight-block.html block=block %}
 Fields are described at the top of _data/highlights.yml.
 {% endcomment %}
 {% assign block = include.block %}
-<div class="highlight">
-    <h3>{{ block.title }}</h3>
+{% assign slug = block.title | slugify %}
+{% if block.date %}{% capture hid %}{{ block.date | date: "%Y-%m-%d" }}-{{ slug }}{% endcapture %}{% else %}{% assign hid = slug %}{% endif %}
+<div class="highlight" id="{{ hid | strip }}">
+    <h3><a class="highlight-anchor" href="#{{ hid | strip }}" title="Link to this highlight">{{ block.title }}</a></h3>
+    {% if block.date %}<p class="highlight-date"><a href="#{{ hid | strip }}">{{ block.date | date: "%-d %B %Y" }}</a></p>{% endif %}
     {% if block.lead %}<p class="highlight-lead">{{ block.lead }}</p>{% endif %}
     <div class="highlight-row">
         {% for card in block.cards %}
